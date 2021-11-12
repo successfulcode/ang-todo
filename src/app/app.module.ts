@@ -2,12 +2,16 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { AddTodoComponent } from './add-todo/add-todo.component';
+import { AddComponent } from './add-items/add-items.component';
+import { DisplayItemsComponent } from './display-items/display-items.component';
+import { AddFormComponent } from './add-form/add-form.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    AddTodoComponent
+    AddComponent,
+    DisplayItemsComponent,
+    AddFormComponent
   ],
   imports: [
     BrowserModule,
